@@ -1,5 +1,7 @@
 # CRM Research
 
+# Part 1 – AI-Based CRM Discovery
+
 ## 1. What is CRM?
 
 ### Definition
@@ -137,4 +139,58 @@ Provides visual summaries of organizational performance and customer data.
 * Was the response complete?: Yes, although module naming differs between CRM vendors.
 * Was information verified?: Compared against multiple CRM products.
 * Trustworthiness: High because these modules are common across most CRM platforms.
+
+
+
+# Part 2 – CRM Product Comparison
+
+## Commercial CRM Products
+
+| Product                    | Target Customer                  | Strengths                                                                                 | Weaknesses                                                           | Pricing Model                                  |
+| -------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------- |
+| Salesforce                 | Large businesses and enterprises | Highly customizable, large ecosystem, strong integrations, extensive features             | Expensive, steep learning curve, implementation complexity           | Subscription-based pricing with multiple tiers |
+| HubSpot CRM                | Small to medium businesses       | Easy setup, user friendly interface, strong marketing integration, free version available | Advanced features become expensive, customization limitations        | Freemium model with paid upgrades              |
+| Zoho CRM                   | Small to medium businesses       | Affordable pricing, many built-in features, scalable                                      | Interface can feel cluttered, setup complexity for advanced features | Subscription-based pricing                     |
+| Microsoft Dynamics 365 CRM | Medium to large organizations    | Strong integration with Microsoft products, enterprise features, analytics                | Complex deployment, higher learning curve                            | Subscription licensing                         |
+| Oracle CRM                 | Large enterprises                | Enterprise scalability, analytics, extensive customization                                | High cost, implementation difficulty                                 | Enterprise subscription pricing                |
+
+## Commercial CRM Analysis
+
+Salesforce appears to be the most popular commercial CRM due to its large market share, extensive customization options, and widespread adoption across industries. Its ecosystem of integrations and third-party tools also contributes to its popularity. However, cost and complexity make it less attractive for smaller organizations.
+
+---
+
+## Open Source CRM Products
+
+| Product    | Features                                                 | Technology Stack   | Community Support               | Ease of Installation |
+| ---------- | -------------------------------------------------------- | ------------------ | ------------------------------- | -------------------- |
+| SuiteCRM   | Sales automation, contacts, leads, reporting, workflows  | PHP, MySQL         | Large and established community | Moderate difficulty  |
+| EspoCRM    | Contact management, opportunities, reporting, automation | PHP, MySQL         | Growing community support       | Easy installation    |
+| Odoo CRM   | CRM integration with ERP modules, reporting, sales tools | Python, PostgreSQL | Very large community            | Moderate difficulty  |
+| Vtiger CRM | Sales automation, marketing tools, customer support      | PHP, MySQL         | Moderate community size         | Moderate difficulty  |
+
+## Open Source CRM Analysis
+
+SuiteCRM appears to be the most mature open-source CRM because it has existed for many years, has strong community support, and offers extensive enterprise-level functionality. Odoo also demonstrates maturity because of its large ecosystem, although CRM is only one component of its broader platform.
+
+---
+
+## Recommendations
+
+### Recommended CRM for Small Businesses
+
+For small businesses, HubSpot CRM or EspoCRM would likely be the strongest choices. HubSpot offers an easy learning curve and free entry-level options, while EspoCRM provides lower costs and flexibility through open-source deployment. Small businesses often prioritize affordability and ease of implementation over advanced enterprise features.
+
+### Recommended CRM for Large Enterprises
+
+For large enterprises, Salesforce or Microsoft Dynamics 365 CRM would be stronger choices. These systems provide scalability, advanced analytics, extensive customization, and support for large teams and complex workflows. Salesforce especially stands out because of its large ecosystem and widespread adoption.
+
+---
+
+## Reflection
+
+* AI Tool Used: ChatGPT
+* Was the response complete?: Mostly complete but pricing and popularity claims required verification.
+* Was information verified?: Compared AI output against vendor documentation and software review sites.
+* Trustworthiness: Moderate to high. Product comparisons were useful, but market popularity and pricing changed frequently and required additional validation.
 
