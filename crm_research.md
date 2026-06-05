@@ -195,46 +195,46 @@ For large enterprises, Salesforce or Microsoft Dynamics 365 CRM would be stronge
 * Trustworthiness: Moderate to high. Product comparisons were useful, but market popularity and pricing changed frequently and required additional validation.
 
 
-Part 3 – Open Source CRM Exploration
-Selected CRM: EspoCRM
+#Part 3 – Open Source CRM Exploration
+##Selected CRM: EspoCRM
 
 For this section, EspoCRM was selected because it is open-source, lightweight, and easier to explore compared to larger CRM platforms. Instead of performing a local installation, the online demo environment was used to evaluate the system’s functionality and interface.
 
-Demo Environment Experience
-Was setup easy?
+##Demo Environment Experience
+###Was setup easy?
 
 Using the online demo environment made setup extremely simple because no local installation or server configuration was required. Accessing the system only required opening the demo site and logging in using the provided credentials.
 
-What challenges occurred?
+###What challenges occurred?
 
 The largest challenge was learning how different CRM modules connected and understanding some of the terminology used throughout the platform. Since the demo environment already contained sample data, it sometimes took time to determine how modules interacted with one another.
 
 Another challenge was understanding how workflows would function in a real organization because demo environments typically already have preconfigured settings and populated records.
 
-How did AI help?
+###How did AI help?
 
 AI tools were helpful for explaining CRM terminology, clarifying the purpose of modules, and suggesting areas of the system to explore. AI also helped interpret relationships between contacts, leads, opportunities, and reporting features.
 
-Product Experience
-Features That Were Impressive
+##Product Experience
+###Features That Were Impressive
 
 Several features stood out during exploration:
 
-Clean and organized dashboard interface
-Built-in lead and contact management tools
-Search and filtering functionality
-Customizable modules and fields
-Reporting and analytics capabilities
-Relatively lightweight and easy-to-navigate interface
-Features That Were Missing
+*Clean and organized dashboard interface
+*Built-in lead and contact management tools
+*Search and filtering functionality
+*Customizable modules and fields
+*Reporting and analytics capabilities
+*Relatively lightweight and easy-to-navigate interface
+*Features That Were Missing
 
 Some limitations were noticeable:
 
-Fewer integrations compared to enterprise CRM platforms
-Smaller plugin ecosystem than commercial alternatives
-Some advanced reporting features appeared more limited
-Initial terminology and navigation required time to learn
-Would You Use It In A Real Organization?
+*Fewer integrations compared to enterprise CRM platforms
+*Smaller plugin ecosystem than commercial alternatives
+*Some advanced reporting features appeared more limited
+*Initial terminology and navigation required time to learn
+###Would You Use It In A Real Organization?
 
 For small to medium-sized organizations, EspoCRM appears to be a practical option because it provides many core CRM features without enterprise licensing costs. The platform seems flexible enough for organizations that want customization and lower costs.
 
@@ -243,7 +243,7 @@ For very large organizations with highly specialized workflows or extensive inte
 Overall, the system appears capable for organizations that need customer management, lead tracking, and reporting without investing in expensive commercial software.
 
 Reflection
-AI Tool Used: ChatGPT
-Was the response complete?: Mostly complete but direct exploration of the demo environment provided additional usability insights.
-Was information verified?: Verified through hands-on use of the demo platform and comparison with documentation.
-Trustworthiness: High for general concepts and improved through direct interaction with the software.
+*AI Tool Used: ChatGPT
+*Was the response complete?: Mostly complete but direct exploration of the demo environment provided additional usability insights.
+*Was information verified?: Verified through hands-on use of the demo platform and comparison with documentation.
+*Trustworthiness: High for general concepts and improved through direct interaction with the software.
