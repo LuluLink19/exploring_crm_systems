@@ -443,3 +443,10 @@ Modules --> Database[(MySQL Database)]
 The architecture follows a three-tier design where the browser handles presentation, PHP handles business logic, and MySQL stores persistent application data.
 
 ![CRM Architecture Diagram](architecture/crm_architecture.png)
+
+## Reflection
+
+- AI Tool Used: ChatGPT  
+- Was the response complete?: Mostly complete, but architectural decisions required additional reasoning to determine which modules and database relationships were necessary for a CRM system.  
+- Was information verified?: Recommendations were compared against common web application practices, CRM structures, and software engineering concepts discussed in class.  
+- Trustworthiness: High for general architecture concepts and security recommendations, although implementation details would still require testing and refinement during development.  
