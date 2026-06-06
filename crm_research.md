@@ -271,3 +271,154 @@ Overall, the system appears capable for organizations that need customer managem
 - Was the response complete?: Mostly complete but direct exploration of the demo environment provided additional usability insights.  
 - Was information verified?: Verified through hands-on use of the demo platform and comparison with documentation.  
 - Trustworthiness: High for general concepts and improved through direct interaction with the software.
+
+
+# Part 4 – AI-Assisted CRM Architecture Exploration
+
+## Proposed CRM Technology Stack
+
+### Front-End Technologies
+
+The proposed CRM system would use standard web technologies for both accessibility and ease of development.
+
+- HTML for page structure  
+- CSS for styling and layouts  
+- JavaScript for client-side interactivity  
+- jQuery for simplifying DOM manipulation and event handling  
+- Bootstrap for responsive design and reusable UI components  
+
+### Server-Side Technology
+
+- PHP would manage business logic, user authentication, database communication, and application workflows.
+
+### Database Technology
+
+- MySQL would store customer records, user accounts, activity history, reports, and application data.
+
+---
+
+## Functional Modules
+
+A CRM system requires multiple modules to organize customer information and business processes.
+
+### Authentication Module
+
+Handles login, logout, user sessions, password management, and access control.
+
+### Contacts Module
+
+Stores customer names, phone numbers, email addresses, notes, and communication history.
+
+### Leads Module
+
+Tracks potential customers and records information before they become active customers.
+
+### Opportunities Module
+
+Manages sales opportunities, revenue estimates, and sales pipeline stages.
+
+### Tasks Module
+
+Tracks reminders, follow-ups, meetings, and employee assignments.
+
+### Reports Module
+
+Generates reports and analytics from stored CRM data.
+
+### Dashboard Module
+
+Provides users with summaries of sales activities, tasks, and performance metrics.
+
+### Support Ticket Module
+
+Allows organizations to manage customer issues and service requests.
+
+---
+
+## Database Design
+
+The CRM database would require several related tables.
+
+| Table Name | Purpose |
+|------------|------------|
+| users | Stores user login information and account details |
+| roles | Stores user permissions and access levels |
+| contacts | Stores customer records |
+| leads | Stores potential customer information |
+| accounts | Stores company or organization data |
+| opportunities | Stores sales pipeline information |
+| activities | Stores calls, meetings, and interactions |
+| tasks | Stores reminders and assignments |
+| tickets | Stores customer support requests |
+| reports | Stores reporting information |
+
+### Database Relationships
+
+- Users belong to roles  
+- Contacts may belong to accounts  
+- Leads may become opportunities  
+- Activities connect users and contacts  
+- Tickets connect customers and support staff  
+
+---
+
+## Useful Libraries and Development Tools
+
+| Library | Purpose |
+|----------|----------|
+| Bootstrap | Creates responsive layouts and UI components |
+| jQuery | Simplifies JavaScript functionality |
+| DataTables | Creates searchable and sortable tables |
+| Chart.js | Generates charts and visual analytics |
+| PHPMailer | Sends automated emails and notifications |
+| Composer | Manages PHP packages and dependencies |
+
+These libraries reduce development time and provide reusable functionality.
+
+---
+
+## Security Considerations
+
+### Authentication
+
+Use secure login systems with session management and optional multi-factor authentication.
+
+### Authorization
+
+Implement role-based access control to limit user permissions.
+
+### Password Security
+
+Passwords should be hashed using bcrypt or similar hashing algorithms instead of storing plain text passwords.
+
+### SQL Injection Prevention
+
+Use prepared statements and parameterized queries to prevent malicious database commands.
+
+### Cross-Site Scripting (XSS)
+
+Validate and sanitize all user inputs before displaying information.
+
+### Data Privacy
+
+Protect sensitive customer data using HTTPS, encryption, and restricted access policies.
+
+---
+
+## Minimum Viable Product (MVP)
+
+The smallest useful CRM should focus on core customer management functionality.
+
+### Version 1 Features
+
+- User login and authentication  
+- Contact management  
+- Lead management  
+- Task tracking  
+- Dashboard summaries  
+- Basic reports  
+- Search functionality  
+
+This MVP provides enough functionality for organizations to manage customer relationships without unnecessary complexity.
+
+---
