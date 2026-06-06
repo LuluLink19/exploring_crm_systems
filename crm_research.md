@@ -422,3 +422,22 @@ The smallest useful CRM should focus on core customer management functionality.
 This MVP provides enough functionality for organizations to manage customer relationships without unnecessary complexity.
 
 ---
+
+
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+
+Browser[Browser]
+
+Browser --> Frontend[HTML / CSS / JavaScript / Bootstrap]
+
+Frontend --> PHP[PHP Application Layer]
+
+PHP --> Database[(MySQL Database)]
+```
+
+The architecture follows a three-tier design where the browser handles presentation, PHP handles business logic, and MySQL stores persistent application data.
+
+![CRM Architecture Diagram](architecture/crm_architecture.png)
