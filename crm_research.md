@@ -429,13 +429,15 @@ This MVP provides enough functionality for organizations to manage customer rela
 ```mermaid
 flowchart TD
 
-Browser[Browser]
+Browser[User Browser]
 
 Browser --> Frontend[HTML / CSS / JavaScript / Bootstrap]
 
 Frontend --> PHP[PHP Application Layer]
 
-PHP --> Database[(MySQL Database)]
+PHP --> Modules[CRM Modules<br/>Contacts • Leads • Tasks • Reports]
+
+Modules --> Database[(MySQL Database)]
 ```
 
 The architecture follows a three-tier design where the browser handles presentation, PHP handles business logic, and MySQL stores persistent application data.
